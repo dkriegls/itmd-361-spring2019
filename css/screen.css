@@ -134,6 +134,13 @@ h4 {
   text-transform: none;
   padding-bottom: 0.6315789474em;
 }
+h5 {
+  color: #dedede;
+  background-color: #142736;
+  padding: 0.5em 0 0.5em 0.3em;
+  margin-bottom: 0.2em;
+  width: 70%;
+}
 
 /* ========== Layout ========== */
 
@@ -340,7 +347,8 @@ td {
   width: 120px;
 }
 .redfont {
-	color: red;
+	color: white;
+  background-color: red;
 }
 #tablep {
 	width: 80%
