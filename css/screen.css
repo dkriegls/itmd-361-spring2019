@@ -374,6 +374,31 @@ td {
   color: #dedede;
 }
 
+/* Button*/
+.accordion {
+  background-color: #A7C3C9;
+  color: #333;
+  cursor: pointer;
+  padding: 0.6315789474em;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #594e51;
+  font-weight: bold;
+  transition: 0.2s;
+}
+.accordion h3{
+  font-size: 1.3em; /* ~ 19px @ 25.537px/em */
+}
+
+.active, .accordion:hover {
+  background-color: #9D6D72;
+}
+.panel{
+  padding: 18px 0;
+  display: none;
+  overflow: hidden;
+}
+
 /* ========== State ========== */
 
 .hasjs .extended {
