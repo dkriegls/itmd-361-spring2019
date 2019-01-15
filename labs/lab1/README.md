@@ -1,3 +1,5 @@
+# Insturctions for completeing lab 1
+
 <ol>
   <li>Use the lab1.html template to create your first website.</li>
   <li>We will work through this together in class.</li>
