@@ -120,6 +120,7 @@ h2 {
 h3 {
   text-transform: uppercase;
   font-weight: bold;
+  color: #dedede;
   background-color: #142736;
   padding: 0.5em 0 0.5em 0.3em;
   margin-bottom: 0.2em;
@@ -206,7 +207,8 @@ nav {
 #calendar #nav-cal a,
 #due_date #nav-due a, 
 #projects #nav-pro a,
-#policies #nav-pol a {
+#policies #nav-pol a,
+#link #nav-lnk a {
   color: #142736;
   background-color: #A7C3C9;
 }
