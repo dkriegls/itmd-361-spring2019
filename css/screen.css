@@ -302,7 +302,7 @@ nav {
 /* Table */
 table {
 	table-layout: fixed;
-	width: 750px;
+	width: 100%;
   margin-bottom: 1em;
 }
 table, th, td {
@@ -314,20 +314,14 @@ table, th, td {
 	text-align: center;
   font-weight: 700;
 }
-.tabletitle {
-  padding-bottom: 15px;
-  padding-top: 15px;
-  border-left: none;
-}
 #protable {
   margin-bottom: 0;
 }
 tr .firstrow {
 	border-right: none;
-	width: 75px;
-}
-tr .secondrow {
-	text-align: left;
+	width: 80px;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 td a {
 	font-weight: 700;
@@ -441,7 +435,7 @@ td {
   #instructor,
   #links {
     padding-right: 5%;
-    padding-left: 10%;
+    padding-left: 5%;
   }
   .tagline,
   .fineprint {
@@ -486,7 +480,7 @@ td {
   #instructor,
   #links {
     padding-right: 10%;
-    padding-left: 20%;
+    padding-left: 10%;
   }
   .tagline,
   .fineprint {
@@ -519,8 +513,8 @@ td {
   .primary,
   #instructor,
   #links {
-    padding-right: 10%;
-    padding-left: 30%;
+    padding-right: 20%;
+    padding-left: 20%;
   }
   nav {
     width: 60%;
