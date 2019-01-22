@@ -359,6 +359,13 @@ td {
 	margin-right: 30%;
 }
 
+.topic {
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+}
+
+
 /* Policies */ 
 
 #location > p {
