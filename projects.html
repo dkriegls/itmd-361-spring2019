@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
   <link rel="stylesheet" href="css/screen.css" media="screen" />
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <script async src="js/site.js"></script>
 </head>
 <body>
   <div id="page">
@@ -30,8 +31,10 @@
   <main id="content">
     <section class="primary">
       <h2 class="label">Major Projects</h2>
-      <article class="preview">
-        <h3 id="project-one">Project One: Only Use HTML</h3>
+      <button class="accordion">
+        <h3>Project One: Only Use HTML</h3>
+      </button>
+      <div class="panel">
         <section class="description">
           <h4>Project Description</h4>
           <p>
@@ -109,15 +112,19 @@
             </li>
           </ul>
         </section>
-      </article>
-      <article>
-        <h3 id="project-two">Project Two: Add CSS</h3>
-
-      </article>
-      <article class="preview">
-        <h3 id="project-three">Project Three: Add JavaScript</h3>
-
-      </article>
+      </div>      
+      
+      <button class="accordion">
+        <h3>Project Two: Add CSS</h3>
+      </button>
+      <div class="panel">
+      </div>
+      
+      <button class="accordion">
+        <h3>Project Three: Add JavaScript</h3>
+      </button>
+      <div class="panel">
+      </div>
     </section>
   </main>
     <footer id="footer">
