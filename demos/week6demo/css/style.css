@@ -1,0 +1,41 @@
+#caption {
+  color: red;
+}
+
+#main-content {
+  background-color: pink;
+}
+
+h1 {
+	color: red; 
+  background-color: yellow;
+  font-family: helvetica;
+  font-weight: 600;
+  font-weight: 200;
+  box-sizing: border-box;
+  font-size: 3em;
+  padding: 0 20px;
+  margin: 5px 10px;
+  width: 50%;
+	border: 5px solid red;
+  float: left;
+  
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+#second-headline {
+	color: blue;
+	font-size: 60px;
+	background-color: #56f442;
+}
+
+.first-para {
+	color:pink;
+	font-size: 24px;
+}
+
+span {color:yellow;}
