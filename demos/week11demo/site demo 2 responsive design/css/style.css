@@ -124,7 +124,6 @@ a[href$=".pdf"] {
 	display: inline-block;
 	width: 32px;
 	height: 32px;
-	background-image: url('../img/pdf.png');
 }
 
 body {
